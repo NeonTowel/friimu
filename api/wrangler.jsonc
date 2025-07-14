@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "friimu-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-07-11",
+  "vars": {
+    "AUTH0_DOMAIN": "neontowel.eu.auth0.com",
+    "AUTH0_AUDIENCE": "https://api.friimu.app"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "friimu",
+      "database_id": "64e70a99-a1ad-4a6d-bbc3-1156df9f75b5"
+    }
+  ]
+}
