@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-rose-pine-base: #232136;
+  --color-rose-pine-surface: #2a273f;
+  --color-rose-pine-overlay: #393552;
+  --color-rose-pine-muted: #6e6a86;
+  --color-rose-pine-subtle: #908caa;
+  --color-rose-pine-text: #e0def4;
+  --color-rose-pine-love: #eb6f92;
+  --color-rose-pine-gold: #f6c177;
+  --color-rose-pine-rose: #ea9a97;
+  --color-rose-pine-pine: #3e8fb0;
+  --color-rose-pine-foam: #9ccfd8;
+  --color-rose-pine-iris: #c4a7e7;
+  --color-rose-pine-highlight-low: #2a283e;
+  --color-rose-pine-highlight-med: #44415a;
+  --color-rose-pine-highlight-high: #56526e;
+}
+
+body {
+  @apply bg-rose-pine-base text-rose-pine-text font-sans;
+}
+
+* {
+  @apply border-rose-pine-highlight-med;
+}
